@@ -91,7 +91,7 @@ const Auth = () => {
               <Input
                 id="email"
                 type="email"
-                label="Email address or phone number"
+                label="Enter email address"
                 value={email}
                 onChange={(e: any) => setEmail(e.target.value)} 
               />
